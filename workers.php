@@ -117,7 +117,7 @@ include 'Connect/connect.php';
             }  
             else {
                 echo "Работает";
-                echo "Привет";
+               
             }
 
          

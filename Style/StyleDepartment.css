@@ -1,0 +1,185 @@
+html, body {
+    height: 100%;
+    background-color: rgb(242, 244, 247);
+  
+  }
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+
+    }
+
+/*Хедер*/
+.header{
+    background-color: rgb(56, 111, 214);
+    height: 50px;
+   position: relative;
+}
+
+.logo-block{
+   
+    margin-top: 5px;
+    margin-left: 40px;
+    font-size: 20px;
+    position: absolute;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu-block{
+    background-color: rgb(56, 111, 214);
+   margin-left: 250px;
+   
+   position: absolute;
+   margin-top: 17px;
+   color:  white;
+}
+
+.menu{
+  
+    color:  white;
+    text-align: center;
+    word-spacing: 1.2cm;
+}
+
+.menu_item{
+    word-spacing: 0cm;
+    color: white;
+}
+
+.menu_item:hover{
+ color:rgb(50, 50, 50);
+ border-bottom: solid 0.07cm rgb(50, 50, 50);
+}
+
+.panel-admin{
+    margin-left: 1150px;
+    position: absolute;
+    margin-top: 17px;
+
+}
+
+.open-admin{
+    color: white;
+}
+
+.open-admin:hover{
+    color:rgb(50, 50, 50);
+ border-bottom: solid 0.07cm rgb(50, 50, 50);
+}
+
+/*Мидл*/
+
+.middle{
+    width: 100%;
+    
+   
+    top: 0;
+    left: 0;
+   
+}
+
+.logo_department{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*Футер*/
+
+.footer{
+    margin-top: 50px;
+    height: 9.88cm;
+    background-color: rgb(90, 90, 90);
+     }
+    
+     .block3{
+         height: 0.53cm;
+         background-color: rgb(70, 70, 70);
+     }
+    
+      /*block_updates*/
+    
+     .updates{
+         height: 9.31cm;
+         width: 21.38cm;
+         background-color: rgb(90, 90, 90);
+         margin-left: 10.82cm;
+     }
+    
+     .updates_name{
+         margin-top: 1cm;
+         position: absolute;
+         font-size: 30px;
+         color: rgb(241, 248, 249);
+     }
+    
+     .desc_updates{
+        margin-top: 2cm;
+        position: absolute;
+        font-size: 17px;
+        color: rgb(241, 248, 249);
+     }
+    
+     .menu_updates{
+         margin-top: 5cm;
+         position: absolute;
+         word-spacing: 0.95cm;
+         font-size: 17px;
+         color: rgb(241, 248, 249);
+     }
+     
+    
+     .menu_updates_item{
+        word-spacing: 0.18cm;
+        color: rgb(241, 248, 249);
+     }
+    
+     .studio{
+         margin-top: 7cm;
+         position: absolute;
+         color: rgb(90, 90, 90);
+     }
+    
+     .email{
+         position: absolute;
+         margin-left: -11cm;
+         margin-top: 3cm;
+         
+         
+     }
+    
+     .img_email{
+         height: 0.9cm;
+         width: 7.5cm;
+     }
+     /*block_contact*/
+    
+    .contact{
+        width: 14cm;
+        height: 9.31cm;
+        background-color: rgb(90, 90, 90);
+        position: absolute;
+        margin-left: 30cm;
+        margin-top: -9.32cm;
+        color: rgb(241, 248, 249);
+    }
+    
+    .contact_name{
+        margin-top: 1cm;
+         position: absolute;
+         font-size: 30px;
+         color: black;
+         color: rgb(241, 248, 249);
+    }
+    
+    .adress{
+        margin-top: 2.5cm;
+        font-size: 17px;
+    }
+    
+    .img_logocontact{
+        margin-top: 1cm;
+    }
+
+
+

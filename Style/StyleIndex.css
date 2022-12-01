@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+    background-color: rgb(242, 244, 247);
+  
+  }
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    }
+
+/*Хедер*/
+.header{
+    background-color: rgb(56, 111, 214);
+    height: 50px;
+   
+}
+
+
+
+.logo-block{
+   
+    margin-top: 5px;
+    margin-left: 40px;
+    font-size: 20px;
+    position: absolute;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu-block{
+    background-color: rgb(56, 111, 214);
+   margin-left: 250px;
+   
+   position: absolute;
+   margin-top: 17px;
+   color:  white;
+}
+
+.menu{
+  
+    color:  white;
+    text-align: center;
+    word-spacing: 1.2cm;
+}
+
+.menu_item{
+    word-spacing: 0cm;
+    color: white;
+}
+
+.menu_item:hover{
+ color:rgb(50, 50, 50);
+ border-bottom: solid 0.07cm rgb(50, 50, 50);
+}
+
+.panel-admin{
+    margin-left: 1150px;
+    position: absolute;
+    margin-top: 17px;
+}
+
+.open-admin{
+    color: white;
+}
+
+.open-admin:hover{
+    color:rgb(50, 50, 50);
+ border-bottom: solid 0.07cm rgb(50, 50, 50);
+}
+
+
+/*Мидл*/
+
+.middle{
+    background-color: rgb(242, 244, 247);
+    height: 600px;
+    
+
+}
+
+.logo{
+    position: relative;
+     text-align: center;
+     margin-top: 20px;
+ }
+
+.WindowPass{
+    position: absolute;
+    margin-top: 200px;
+   margin-left: 500px;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+   line-height: 30px;
+   border-radius: 10px;
+   border:1px solid rgb(200, 200, 200);
+}
+
+.textWindow{
+    text-align: center;
+    
+}
+
+.button{
+    border-radius: 10px;
+    height: 25px;
+    width: 70px;
+    border:1px solid rgb(200, 200, 200);
+}
+
+.button:hover{
+    background-color: rgb(200, 200, 200);
+}
+
+.reg{
+    color: black;
+}
+
+/*Футер*/
+
+.foother{
+    background-color: rgb(120, 120, 120);
+    height: 100px;
+}
